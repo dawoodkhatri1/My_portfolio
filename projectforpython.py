@@ -35,7 +35,8 @@ with st.container():
         st.write("##")
         st.write(
             """
-            On my Github account I am making projects to grow my skills in web development.
+            I create a website and my skills are backend development.\n
+            For further details check out my Github account.
             """
         )
         st.write("[My Github account > ](https://github.com/dawoodkhatri1)")
@@ -79,38 +80,26 @@ with st.container():
     with right_column:
         st.empty()
 
-with st.container():
-    st.write("---")
-    st.header("Connect With Me!")
-    st.write("##")
-    st.subheader("Email")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(my_gmail)
-        st.markdown("dawoodm.shoaib@gmail.com")
+#----Contact Info----
+st.write("---")
+st.header("Connect With Me!")
+st.write("##")
+st.subheader("Email")
+st.image(my_gmail)
+st.markdown("[Click the link to proceed...](dawoodm.shoaib@gmail.com)")
 
-with st.container():
-    st.write("##")
-    st.subheader("LinkedIn")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(my_linkedin)
-        st.markdown("https://www.linkedin.com/in/dawood-m-shoaib-a6229722a/")
+st.write("##")
+st.subheader("LinkedIn")
+st.image(my_linkedin)
+st.markdown("[Click the link to proceed...](https://www.linkedin.com/in/dawood-m-shoaib-a6229722a/)")
 
-with st.container():
-    st.write("##")
-    st.subheader("Facebook")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(my_facebook)
-        st.markdown("https://www.facebook.com/dawoodm.shoaib?mibextid=ZbWKwL")
+st.write("##")
+st.subheader("Facebook")
+st.image(my_facebook)
+st.markdown("[Click the link to proceed...](https://www.facebook.com/dawoodm.shoaib?mibextid=ZbWKwL)")
 
-with st.container():
-    st.write("##")
-    st.subheader("Gihub")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(my_github)
-        st.markdown("https://github.com/dawoodkhatri1")
-
+st.write("##")
+st.subheader("Gihub")
+st.image(my_github)
+st.markdown("[Click the link to proceed...](https://github.com/dawoodkhatri1)")
 
